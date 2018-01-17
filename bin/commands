@@ -6,3 +6,11 @@ ls files/
 
 ## count the number of files with docx extension
 ls files/*docx|wc -l
+
+## second version
+ls files/*|grep -c docx
+
+## note: to kill command, use cntrl c (^C)
+
+## count non-docx files:
+ls files/*|grep  -cv docx
