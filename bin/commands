@@ -3,3 +3,6 @@
 
 # Simple list
 ls files/
+
+## count the number of files with docx extension
+ls files/*docx|wc -l
