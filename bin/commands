@@ -1,16 +1,24 @@
 ### Commands to list files in a directory.
 ##  1/17/2018:  Git workshop
 
+dir=~/identifySampleLabels/rbcl/run616_S3June14A_alignments
+echo $dir
+
+
 # Simple list
-ls files/
+ls $dir/
 
 ## count the number of files with docx extension
-ls files/*docx|wc -l
+ls $dir/*bam|wc -l
 
 ## second version
-ls files/*|grep -c docx
+ls $dir/*|grep -c bam
+
+ls $dir/*.err| wc -l
 
 ## note: to kill command, use cntrl c (^C)
 
 ## count non-docx files:
 ls files/*|grep  -cv docx
+
+##########
