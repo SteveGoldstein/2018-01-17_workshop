@@ -1,3 +1,5 @@
 ### Commands to list files in a directory.
 ##  1/17/2018:  Git workshop
 
+# Simple list
+ls files/
